@@ -18,7 +18,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
         <a class="navbar-brand" href="#">TREM | Spiritual Report</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,52 +29,25 @@
 
     <div class="container-fluid">
       <div class="row">
-        <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Overview <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Reports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Analytics</a>
-            </li>
-          </ul>
-
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Latest Reports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Weekly Reports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Monthly Reports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Outstanding</a>
-            </li>
-          </ul>
-
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-          </ul>
-        </nav>
-
-        <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-          <h1> </h1>
-
-   
-
+        <main role="main" class="col-sm-9 ml-sm-auto col-md-8 pt-3">
+						<div class="card w-50">
+							<img class="card-img-top" src="../sr/images/20180419131010.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">SELECT TREM BRANCH TO VIEW REPORT</h5>
+								<p>From here, you can have access to reports submitted to the portal by each branch of the church.Toggle the dropdown to reveal menu and then select branch to view:</p>
+								<div class="dropdown">
+									<button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown">
+										SELECT
+									</button>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">HQ</a>
+										<a class="dropdown-item" href="#">Victoria Island</a>
+										<a class="dropdown-item" href="#">AKOKA</a>
+									</div>
+								</div>
+							</div>
+						</div>  
+					
         </main>
       </div>
     </div>
@@ -83,8 +56,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="../sr/bootstrap-4.0.0-beta.2/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
     <script src="../sr/bootstrap-4.0.0-beta.2/assets/js/vendor/popper.min.js"></script>
     <script src="../sr/bootstrap-4.0.0-beta.2/dist/js/bootstrap.min.js"></script>
+		<script src="../sr/bootstrap-4.0.0-beta.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="../sr/bootstrap-4.0.0-beta.2/dist/js/bootstrap.js"></script>
   </body>
 </html>
